@@ -1,0 +1,79 @@
+/* Custom styling for the admin page
+------------------------------------------------------------ */
+
+.onars-mc-content {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #eee url(images/bg.png) repeat scroll 0 0;
+	border-radius: 3px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.onars-mc-header .content,
+.onars-mc-table .content {
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 800px;
+}
+
+.onars-mc-header {
+    background: none repeat scroll 0 0 #52BAD5;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    min-height: 170px;
+}
+
+.onars-mc-header p {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px rgba(0, 0, 0, .3);
+}
+
+.onars-mc-table {
+    background-color: #F2F2F2;
+    border-top: 1px solid #F2F2F2;
+}
+
+.onars-mc-table .content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-top: -52px;
+    padding: 20px 0 40px;
+}
+
+.onars-mc-table tr {
+	border-bottom: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+}
+
+.onars-mc-table tr:nth-child(odd) {
+	background: #fff;
+}
+
+.onars-mc-table th,
+.onars-mc-table td {
+	color: #3f3f38;
+	vertical-align: middle;
+}
+
+.onars-mc-table th {
+	width: 400px;
+}
+
+.onars-mc-table td {
+	width: 400px;
+}
+
+.onars-mc-table .submit {
+	padding-left: 10px;
+}
+
+.onars-mc-table .submit input {
+	margin-left: 0;
+}
+
+.onars-mc-table input {
+	border: 2px solid #C8C8C8;
+}
